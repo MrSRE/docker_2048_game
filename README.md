@@ -12,8 +12,8 @@ Made just for fun.
 * vi Dockerfile
 
 * Use the official Node.js image from the Docker Hub
-FROM ubuntu:24.04
-RUN apt-get update
+** FROM ubuntu:24.04
+** RUN apt-get update
 * Install application dependencies
 RUN apt-get install -y nginx zip curl
 RUN echo "daemon off;" >>/etc/nginx/nginx.conf
